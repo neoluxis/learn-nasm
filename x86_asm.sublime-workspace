@@ -7,17 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "3-ByteAndWord/main.asm",
-			"settings":
-			{
-				"buffer_size": 146,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -30,6 +19,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -72,10 +81,15 @@
 	"expanded_folders":
 	[
 		"/home/neolux/Documents/x86_asm",
-		"/home/neolux/Documents/x86_asm/3-ByteAndWord"
+		"/home/neolux/Documents/x86_asm/5-UninitData"
 	],
 	"file_history":
 	[
+		"/home/neolux/Documents/x86_asm/5-UninitData/data.s",
+		"/home/neolux/Documents/x86_asm/CharStrLst/data.s",
+		"/home/neolux/Documents/x86_asm/Crash/Hello.asm",
+		"/home/neolux/Documents/x86_asm/3-ByteAndWord/x86_asm.code-workspace",
+		"/home/neolux/.config/sublime-text/Packages/Git/Git.sublime-settings",
 		"/home/neolux/Documents/x86_asm/DataStore/data.s",
 		"/home/neolux/Documents/x86_asm/DataStore/data.asm",
 		"/home/neolux/Documents/x86_asm/DataStore/data.c",
@@ -124,38 +138,11 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "3-ByteAndWord/main.asm",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								146
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Assembly 6809 and 6309 Syntax Highlighting/Assembly-6809.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -165,7 +152,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 49.0
 	},
 	"layout":
 	{
@@ -176,11 +163,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -193,6 +187,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 186.0
 	},
 	"pinned_build_system": "",
 	"project": "",
